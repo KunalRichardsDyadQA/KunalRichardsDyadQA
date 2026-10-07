@@ -2,17 +2,12 @@
 
 # 👋 Kunal Richards
 
-### 🏆 Senior QA Engineer · AI-Powered Test Automation · Nexsure Platform
+### Senior QA Engineer · AI-Powered Test Tooling · Nexsure Platform
 
-[![Dyad Inc](https://img.shields.io/badge/Dyad%20Inc-Senior%20QA%20Engineer-1a1a2e?style=for-the-badge&logo=building&logoColor=white)](https://github.com/KunalRichardsDyadQA)
-[![Nexsure](https://img.shields.io/badge/Platform-Nexsure-00c853?style=for-the-badge)](https://github.com/KunalRichardsDyadQA)
-[![Claude AI](https://img.shields.io/badge/Powered%20by-Claude%20AI-7c3aed?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/KunalRichardsDyadQA)
-[![QA Automation](https://img.shields.io/badge/QA-Automation%20Expert-e53935?style=for-the-badge)](https://github.com/KunalRichardsDyadQA)
-[![JIRA](https://img.shields.io/badge/JIRA-Zephyr%20Scale-0052cc?style=for-the-badge&logo=jira&logoColor=white)](https://github.com/KunalRichardsDyadQA)
-
----
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=22&pause=1000&color=00C853&center=true&vCenter=true&width=700&lines=Senior+QA+Engineer+%40+Dyad+Inc;AI-Powered+Test+Generation+Pioneer;100%25+Coverage+on+Every+Sprint;Built+Tools+the+Whole+Team+Relies+On;Zephyr+Scale+%2B+JIRA+Integration+Expert" alt="Typing SVG" />
+![Dyad Inc](https://img.shields.io/badge/Dyad%20Inc-Senior%20QA%20Engineer-1a1a2e?style=for-the-badge)
+![Nexsure](https://img.shields.io/badge/Platform-Nexsure-00c853?style=for-the-badge)
+![Claude AI](https://img.shields.io/badge/Powered%20by-Claude%20AI-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-Zephyr%20Scale-0052cc?style=for-the-badge&logo=jira&logoColor=white)
 
 </div>
 
@@ -20,37 +15,44 @@
 
 ## 🧑‍💼 About Me
 
-I'm **Kunal Richards**, a **Senior QA Engineer** at **Dyad Inc**, leading quality assurance on the **Nexsure** insurance management platform — one of the most complex and mission-critical enterprise SaaS products in the insurance industry.
+I'm **Kunal Richards**, a **Senior QA Engineer** at **Dyad Inc**, working on **Nexsure**, an enterprise insurance management platform.
 
-I don't just write test cases — I **build the tools that the entire QA team depends on every single day**.
+Besides testing the product, I build the tools our QA team uses — most of all **Dyad TestPro**, which writes Zephyr Scale test cases from Jira tickets and has been in regular use by the Nexsure QA team since May 2026.
 
-- 🔬 **Deep expertise** in functional, regression, and integration testing on large-scale enterprise platforms
-- 🤖 **Built AI-powered test generation** — fully automated, 100% coverage, imported directly to Zephyr Scale
-- 🛠️ **Full-stack tool developer** — Node.js, React, TypeScript, SQLite, REST APIs
-- 📊 **Analytics-driven QA** — cost tracking, token usage, coverage metrics, team dashboards
-- 🔐 **Security-conscious** — JWT auth, bcrypt, OWASP-compliant by default
-- ⚡ **Efficiency obsessed** — cut manual test case writing time from hours to seconds
+- 🔬 Functional, regression and integration testing on a large enterprise platform
+- 🤖 AI-assisted test design with Claude, grounded in Nexsure domain knowledge
+- 🛠️ Full-stack tool building — Node.js, Express, React, TypeScript, SQLite
+- 🔐 Security-minded — changes in Jira and Zephyr are made under each engineer's own account
+- ✅ Checked releases — unit tests and an endpoint sweep run before changes go live
 
 ---
 
 ## 🚀 What I Built — Dyad TestPro
 
-> **The tool the entire Nexsure QA team runs on. Built entirely by me.**
+> Give it a Jira ticket; it writes the Zephyr Scale test cases and files them in the right sprint folder.
+> Designed and built by me, with Claude Code as my AI pair programmer.
 
 <div align="center">
 
-| Feature | What It Does |
-|---|---|
-| 🧠 **AI Test Generation** | 3-pass Claude AI pipeline — baseline → gap fill → semantic check |
-| 📡 **Live Streaming** | Test cases stream live as AI generates them — zero waiting |
-| 📋 **100% Coverage** | Automatic gap detection ensures no edge case is ever missed |
-| 🎯 **Zephyr Import** | One-click import directly to Zephyr Scale test cycles |
-| 💰 **Cost Tracking** | Per-user token + cost analytics (USD & INR) |
-| 👑 **Admin Dashboard** | Real-time team activity, daily/weekly/monthly reports, CSV export |
-| 🔐 **JWT Auth** | Secure multi-user system — role-based access, bcrypt passwords |
-| 📈 **Coverage Analytics** | Visual progress bars, pass count badges, sprint tracking |
+| 📋 Test cases generated | 🎫 Jira tickets covered | 👥 QA engineers using it | ⏱️ Average generation time |
+|:---:|:---:|:---:|:---:|
+| **5,700+** | **320+** | **9** | **~100 s** |
+
+<sub>From the tool's usage log, 14 April – 7 October 2026.</sub>
 
 </div>
+
+| Feature | What it does |
+|---|---|
+| 🧠 **AI test generation** | Claude reads the ticket (description, acceptance criteria, comments, linked issues) and writes the cases in up to three passes — baseline → gap fill → review — stopping once coverage is complete. It can also work from an uploaded PDF or Word requirement |
+| 📡 **Live streaming** | Test cases appear as they are written |
+| 🎯 **Zephyr Scale import** | One click into the right sprint folder and test cycle, linked back to the Jira ticket |
+| 📸 **Test Evidence** | Builds a Word evidence document from the ticket's Zephyr test cases, with screenshots placed against each step and a verdict per case — no AI needed |
+| 📈 **Insights** (lead view) | Zephyr test-run status, root-cause analysis, escaped defects and QA hygiene |
+| 🔌 **MCP server** | The same tools inside Claude Code: get a ticket, generate test cases, import to Zephyr |
+| 🔐 **Sign-in and roles** | JWT sign-in, role-based access, bcrypt passwords; changes in Jira and Zephyr are made under each engineer's own account |
+
+**Engineering:** 220+ commits · v2.7.9 · 120+ automated checks plus a read-only sweep of the main API endpoints (as owner, admin and user), run before releases.
 
 ---
 
@@ -59,47 +61,52 @@ I don't just write test cases — I **build the tools that the entire QA team de
 <div align="center">
 
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Claude](https://img.shields.io/badge/Claude%20API-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
-![JIRA](https://img.shields.io/badge/JIRA-0052CC?style=for-the-badge&logo=jira&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
 
 </div>
 
 ---
 
-## 📌 Pinned Projects
+## 📌 Projects
 
-### 🧪 [Dyad TestPro](https://github.com/KunalRichardsDyadQA/Dyad_TestPro)
-> AI-powered test case generator for the Nexsure platform. 3-pass Claude AI pipeline, live streaming SSE, Zephyr Scale import, JWT-secured multi-user dashboard with real-time analytics.
+### 🧪 Dyad TestPro &nbsp;<sub>(private · internal Dyad tool)</sub>
+> AI test case generator and QA workspace for the Nexsure platform: Jira → Claude → Zephyr Scale, Test Evidence documents, QA insights and an MCP server.
 >
-> **Stack:** Node.js · React/TypeScript · Claude AI · JIRA REST API · Zephyr Scale · better-sqlite3 · JWT
+> **Stack:** Node.js · Express · React/TypeScript · Claude API · Jira REST v3 · Zephyr Scale v2 · SQLite · JWT
+
+### 🧰 Other QA tools I've built
+- **Selenium automation framework** — Java, Selenium 4, TestNG and Maven, with JSON-driven tests, a REST Assured API smoke suite and Allure reports
+- **AI Jira QA reporter** — turns a Jira ticket into a structured QA report: reproduction steps, root-cause analysis and test scenarios (Node.js + React + Claude)
+- **Test coverage analyser** — maps Zephyr test cases to Nexsure modules and compares them with recent GitHub changes to show coverage gaps
 
 ---
 
-## 📊 My QA Philosophy
+## 📊 How I Work
 
 ```
-✅  Every ticket deserves 100% test coverage — not 60%, not 80%. 100%.
-✅  Manual test writing is a solved problem. Automate it.
-✅  If the team wastes time, build a tool. If the tool is slow, make it stream.
-✅  Security is not an afterthought — JWT, bcrypt, OWASP from day one.
-✅  Metrics matter — you can't improve what you can't measure.
+✅  Test what the ticket actually changed, in the environment it was fixed in.
+✅  If the team repeats a task every day, build a tool for it.
+✅  Changes in Jira and Zephyr are made under the engineer's own account, so the history shows who did what.
+✅  Track usage, cost and coverage, and say which numbers are estimates.
+✅  Run the checks before saying "fixed".
 ```
 
 ---
 
-## 🏅 Achievements
+## 🏅 Highlights
 
-- 🥇 **Sole builder** of an AI QA tool adopted by the entire Nexsure QA team
-- ⚡ Reduced test case generation time from **hours → seconds** per JIRA ticket
-- 🎯 Achieved **100% sprint test coverage** consistently across Nexsure modules
-- 🔒 Passed independent security audit — **Grade A−**, zero critical vulnerabilities in production
-- 📈 Built team analytics dashboard tracking **cost, coverage, and velocity** per engineer
-- 🤝 Integrated **Claude AI + JIRA REST + Zephyr Scale** into a single seamless workflow
+- Designed and built **Dyad TestPro** in early 2026; in regular use by the Nexsure QA team since May 2026
+- About **100 seconds** to generate a full set of test cases for a ticket (about 12 cases on average), filed straight into the right Zephyr sprint folder
+- **5,700+ test cases generated** across **320+ Jira tickets**, **3,600+ of them imported into Zephyr Scale**
+- Ran the tool's security reviews and dependency audits (April and October 2026), the latest ahead of its move to AWS
+- Joined **Claude AI, Jira and Zephyr Scale** into one workflow, from ticket to test cases to evidence
 
 ---
 
@@ -109,13 +116,13 @@ I don't just write test cases — I **build the tools that the entire QA team de
 
 | Domain | Tools & Skills |
 |---|---|
-| **Test Management** | JIRA, Zephyr Scale, test cycles, sprint planning |
-| **AI Integration** | Claude AI (Anthropic), prompt engineering, multi-pass pipelines |
-| **Automation** | Selenium, Java, TestNG, Allure, REST Assured |
-| **Backend Dev** | Node.js, Express, REST APIs, SQLite, JWT |
-| **Frontend Dev** | React, TypeScript, Vite, SSE streaming |
-| **Security** | JWT auth, bcrypt, Helmet.js, OWASP compliance |
-| **DevOps** | Git, GitHub, CI/CD awareness, Windows + Linux |
+| **Test Management** | Jira, Zephyr Scale, test cycles, sprint folders, coverage links |
+| **AI Integration** | Claude API, Claude Code, prompt design, multi-pass generation, MCP |
+| **Automation** | Selenium, Java, TestNG, REST Assured, Allure |
+| **Backend** | Node.js, Express, REST APIs, SQLite, JWT |
+| **Frontend** | React, TypeScript, Vite, Server-Sent Events |
+| **Security** | JWT auth, bcrypt, Helmet, per-user credentials, dependency audits |
+| **Delivery** | Git, GitHub, automated release checks, Windows and Linux |
 
 </div>
 
@@ -123,12 +130,6 @@ I don't just write test cases — I **build the tools that the entire QA team de
 
 <div align="center">
 
-### 💬 *"Quality is not an act, it is a habit."*
-
----
-
 **Dyad Inc · Nexsure Platform · Senior QA Engineering**
-
-![Profile Views](https://komarev.com/ghpvc/?username=KunalRichardsDyadQA&color=00c853&style=for-the-badge&label=PROFILE+VIEWS)
 
 </div>
