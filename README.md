@@ -52,7 +52,7 @@ Besides testing the product, I build the tools our QA team uses — most of all 
 | 🔌 **MCP server** | The same tools inside Claude Code: get a ticket, generate test cases, import to Zephyr |
 | 🔐 **Sign-in and roles** | JWT sign-in, role-based access, bcrypt passwords; changes in Jira and Zephyr are made under each engineer's own account |
 
-**Engineering:** 220+ commits · v2.7.9 · 120+ automated checks plus a read-only sweep of the main API endpoints (as owner, admin and user), run before releases.
+**Engineering:** 220+ commits · v2.8.0 · 150+ automated checks plus a read-only sweep of the main API endpoints (as owner, admin and user), run before releases.
 
 ---
 
